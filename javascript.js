@@ -34,9 +34,16 @@ console.log(person); */
 
 
 //Massivlar demak massivlar bizda 0 indexdan bowlanadi
-let  color=['yashil','kok','oqsariq'];
+/* let  color=['yashil','kok','oqsariq'];
 color[3]='qizil';
 console.log(color);
 color[1]='oppoq';
 console.log("Bu yangi tahrirlangan color massiv ")
-console.log(color)
+console.log(color);
+console.log(color.length); // bu massivni uzunligi */
+
+
+
+
+
+
