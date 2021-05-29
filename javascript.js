@@ -41,9 +41,3 @@ color[1]='oppoq';
 console.log("Bu yangi tahrirlangan color massiv ")
 console.log(color);
 console.log(color.length); // bu massivni uzunligi */
-
-
-
-
-
-
