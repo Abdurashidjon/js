@@ -20,6 +20,9 @@ console.log(typeof(selectedColor));
 //Reference typlar   Object Array and Function
 // Objects
 
+
+
+
 let person={
     name:'Abdurashid',
     age: 22
