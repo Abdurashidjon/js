@@ -41,9 +41,44 @@ console.log("Xayrli tun");
 
 
 
-    //15 loop lar haqida taniwamiz. for loop ni koramiz
-    for (let i = 1; i <=5; i++){
-        if (i%2==1) {
-            console.log('salom '+i)
-        } 
+//15 loop lar haqida taniwamiz. for loop ni koramiz
+/*    for (let i = 1; i <=5; i++){
+       if (i%2==1) {
+           console.log('salom '+i)
+       }  */
+// bunda wart bajarilib keyin kod yoziladi 
+/* let i=0;
+while (i<=10) {
+    if (i%2 !==0) {
+        console.log(i); 
+    } i++;
+}// Bunda birinci dastur iwlab keyin kod yoziladi */
+
+/* let i=21;
+do {
+    if (i%2==1) {
+        console.log(i);
     }
+     i++;
+} while (i<=10); */ // bunda avval kod yozilib keyin wart iwlaydi
+
+
+/* let i=1;
+while (i<=10) {
+    if (i==7) {
+        break;
+    }
+    console.log(i)
+    i++;
+} */ // Bu yerda esa break bizda nechiga teng bolsa owanda wart iwlamay chiqib ketadi 
+
+let i=0;
+while (i<=10) {
+    if (i%2==1) {
+        i++;
+        continue;
+    }
+    console.log(i);
+    i++;
+}
+ 
