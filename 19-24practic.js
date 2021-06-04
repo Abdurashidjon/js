@@ -96,4 +96,78 @@ function speedPoint(a) {
 console.log(speedPoint(a)); */
 
 
-// 22 sum
+// 22(1-topwiriq) sum. Biror son kiritiganimizda 3 va 5 ga bo'linadiganlarini yigindisini topiw. For example 10 bosa 3 6 9 va 5 10 ni yigindisi
+/* let a = +prompt('Biror son kiriting');
+let sum=0;
+let sum2=0;
+function sumNumber(a) {
+    for (let i = 0; i <= a; i++) {
+        if (i % 3 == 0) {
+        sum=sum+i;
+        }
+    }
+    for (let j = 0; j <= a; j++) {
+        if (j%5==0) {
+            sum2=sum2+j;
+        }
+    }
+    return (sum+sum2);
+}
+console.log(sumNumber(a)); */
+
+
+// 22(2-topwiriq) Biror obekt elon qilamiz ichiga 2 ta number va 2 ta string elon qilamiz function bizga faqat string qiymatlarni qaytarib berishi kerak
+/* let car = {
+    model: 'Chevrolet',
+    name: 'Nexia3',
+    year: 2020,
+    money: 80000000
+}
+function showProperties(obj) {
+    for (let key in obj) {
+       if (typeof obj[key] === 'string') {
+           console.log(key,obj[key]);
+       }
+    }
+}
+showProperties(car); */
+
+
+// 23 talabani baholarirni ortachasini chiqarish
+/* const marks = [81, 74, 86, 59, 77];
+console.log(calculateGrade(marks));
+function calculateGrade(marks) {
+    let a = calculateA(marks);
+    if (a < 50) return 'F';
+    if (a < 60) return 'D';
+    if (a < 70) return 'C';
+    if (a < 80) return 'B';
+    return 'A';
+}
+function calculateA(array) {
+    let sum = 0;
+    for (let value of array)
+        sum += value;
+    let a = sum / array.length;
+    return a;
+} */
+
+
+
+
+//24 biror son kiritib ozigacha bo'lgan tub sonlarni topish 
+let a = +prompt("Biror son kiriting:");
+showPrimeNumbers(a);
+
+function showPrimeNumbers(limit) {
+    for (let i = 2; i <= limit; i++) {
+        let isPrime = true;
+        for (let j = 2; j < i; j++) {
+            if (i % j === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+       if(isPrime) console.log(i);
+    }
+}
