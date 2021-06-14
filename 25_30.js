@@ -121,5 +121,3 @@ console.log(clone); */ // Bunda bow bolgan clone ichiga circle obekti qiymatlari
 //const clone=Object.assign({color: 'Green', radius: 100}, circle); //bu circleda borlarni clonega qowib qoyadi agar clone da ham circle kabi qiymat bolsa uni olmaydi circlenikini oladi
 const clone={comment:'Bu clone ichidagi string',...circle};
 console.log(clone); */
-
-
