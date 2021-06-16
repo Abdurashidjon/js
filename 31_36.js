@@ -137,20 +137,3 @@ console.log(a); */ //bu xolat faqat assemler holat un agar biror for exmaple Abd
   console.log(a); */ // demak bu barchasi un iwledi avval ular harflarni kichik ka otkazib olib keyin esa iwlaydi eunda muammo bomedi umuman
 
 
-
-
-
-//37-dars every,some,filter
-
-/* let numbers=[1,-5,3,8,56,-6];
-let a=numbers.every(number=>numbers>0);
-console.log(a); */ //ever ichida musbat son bor yoqligiga tekwiradi
-
-/* let numbers = [2, -6, -2,3, -1];
-let atLeastNumber = numbers.some(num=> num>=0);
-console.log(atLeastNumber); */ //bu esa sonlarni 1 ta bolsa xam musbatga tekwiradi
-
-/* let numbers=[-4,2,-5,9,12];
-let musbat=numbers.filter(num=>num>=0);
-console.log(musbat); */ // bu esa obwiy musbatga tekwiradi
-
